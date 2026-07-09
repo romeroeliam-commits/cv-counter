@@ -1,0 +1,29 @@
+# entorno
+venv/
+__pycache__/
+*.pyc
+
+# datos y modelos pesados (no van a GitHub)
+dataset_manzanas/
+runs/
+*.pt
+*.mp4
+*.zip
+
+# archivos de trabajo del servicio
+api_uploads/
+api_outputs/
+counts.json
+counts.csv
+response_*.json
+
+# carpetas locales personales
+originales/
+Output/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+Nube/
+train_test.py
