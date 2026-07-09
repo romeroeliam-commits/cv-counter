@@ -18,6 +18,10 @@ Upload a video → the service detects and tracks every object of the selected c
 
 The agro demo runs on a model I trained from scratch (YOLOv8, 40 epochs, **mAP50 0.94**) — proof that the pipeline works for *any* object a client needs, not just the standard classes.
 
+| Retail | Traffic | Custom apple detector |
+|---|---|---|
+| ![Retail demo](docs/retail.jpg) | ![Traffic demo](docs/traffic.jpg) | ![Apple detection](docs/apples.jpg) |
+
 ## Stack
 
 - **Detection:** Ultralytics YOLOv8 (pre-trained + custom-trained models)
